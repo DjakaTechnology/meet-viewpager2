@@ -33,7 +33,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun prepareViewPager() {
         vp_main.adapter = VPMainAdapter(data)
-        vp_main.orientation = ViewPager2.ORIENTATION_VERTICAL
+
+//        Uncomment below line to enable Vertical Orientation
+//        vp_main.orientation = ViewPager2.ORIENTATION_VERTICAL
 
 //        Uncomment below line to enable animation
 //        addAnimation()
