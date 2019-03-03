@@ -22,7 +22,7 @@ class VPMainAdapter(var data:ArrayList<PageModel>) : RecyclerView.Adapter<VPMain
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.itemView.run {
-            tv_itme.text = data.get(holder.adapterPosition).message
+            tv_item.text = data.get(holder.adapterPosition).message
             layout.setBackgroundResource(data.get(holder.adapterPosition).color)
         }
     }
